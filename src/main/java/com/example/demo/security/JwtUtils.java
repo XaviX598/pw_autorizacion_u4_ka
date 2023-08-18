@@ -29,7 +29,7 @@ public class JwtUtils {
 
 	private static final Logger LOG = LoggerFactory.getLogger(JwtUtils.class);
 
-	public String generateJwtToken(Authentication authentication, String nombre) {
+	public String generateJwtToken( String nombre) {
 
 //		this.parametros.consultarValor("tiempo");
 //		this.parametros.consultarValor("semilla");
